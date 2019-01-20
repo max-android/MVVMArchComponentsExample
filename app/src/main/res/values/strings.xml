@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MVVMArchComponentsExample</string>
+    <string name="books_loading_error">Books loading error</string>
+    <string name="heroes_loading_error">Heroes loading error</string>
+    <string name="author">Author:</string>
+    <string name="released">Released:</string>
+    <string name="culture">Culture:</string>
+    <string name="gender">Gender:</string>
+    <string name="born">Born:</string>
+    <string name="books">Books</string>
+    <string name="heroes">Heroes</string>
+    <string name="hero">Hero</string>
+</resources>

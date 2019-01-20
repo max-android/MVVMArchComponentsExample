@@ -1,0 +1,71 @@
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+    <TextView
+            android:id="@+id/nameBookTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Book"/>
+
+    <TextView
+            android:id="@+id/authorTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:textSize="18sp"
+            android:text="@string/author"
+            app:layout_constraintTop_toBottomOf="@+id/nameBookTextView"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+            android:id="@+id/nameAuthorTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/authorTextView"
+            app:layout_constraintBaseline_toBaselineOf="@+id/authorTextView"
+            tools:text="NameAuthor"/>
+
+    <TextView
+            android:id="@+id/releasedTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:textSize="18sp"
+            android:text="@string/released"
+            app:layout_constraintTop_toBottomOf="@+id/authorTextView"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+            android:id="@+id/valueReleasedTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/releasedTextView"
+            app:layout_constraintBaseline_toBaselineOf="@+id/releasedTextView"
+            tools:text="10.10.1985"/>
+
+</android.support.constraint.ConstraintLayout>
